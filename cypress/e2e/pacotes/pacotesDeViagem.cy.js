@@ -1,7 +1,3 @@
-before(()=>{
-    cy.visit('https://area-de-teste.vercel.app/')
-})
-
 beforeEach(() => {
     cy.get('[href="/pacotes"]').click()
 })
